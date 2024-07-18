@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -31,12 +31,15 @@ h1 {
 .apresentacao {
     display: flex;
     align-items: center;
-    margin: 10%;
+    margin: 10% 19%;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
